@@ -278,6 +278,16 @@ a, a:hover {
   display: block;
 }
 
+
+.logo-wrap{
+  width: 115px;
+  height: 45px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+}
+
 .untree_co--site-hero.inner-page .site-hero-contents .sub-text {
   font-size: 20px;
   color: #000 !important;
@@ -740,7 +750,7 @@ a, a:hover {
   width: 0;
 }
 
-/* Icons */
+/* ss */
 .icons-top {
   position: relative;
 }
@@ -817,6 +827,8 @@ a, a:hover {
   transition: .3s all ease;
 }
 
+
+
 .sticky-wrapper .untree_co--site-nav .container {
   position: relative;
 }
@@ -839,7 +851,7 @@ a, a:hover {
 
 @media (max-width: 767.98px) {
   .sticky-wrapper .untree_co--site-nav .icons-wrap {
-    right: 15px;
+    right: 10px;
   }
 }
 
@@ -847,6 +859,13 @@ a, a:hover {
   z-index: 1003;
 }
 
+.btn-menu {
+  background-color: rgb(41, 73, 23);
+}
+.btn-menu:hover{
+  background-color:rgb(57, 124, 13);
+    transition: 0.7s;
+}
 .sticky-wrapper .untree_co--site-nav .site-nav-ul-wrap {
   width: 100%;
   margin: 0 auto;
@@ -1041,6 +1060,16 @@ a, a:hover {
 
 .sticky-wrapper .untree_co--site-nav.dark .untree_co--site-logo {
   color: #000;
+  
+}
+.sticky-wrapper .untree_co--site-nav.dark .container .logo-wrap{
+  background: url('/images/Logo/logo-Kantu-color.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  width: 100px;
+  height: 35px;
 }
 
 .sticky-wrapper .untree_co--site-nav.dark .site-nav-ul li a {
@@ -1634,6 +1663,18 @@ footer h3 {
   color: #000;
 }
 
+
+.col-md-3 .logo-footer{
+  width: 300px;
+  height: 80px;
+  background-size: cover;
+  right: 95%;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  
+}
+
 footer a {
   color: rgba(0, 0, 0, 0.7);
 }
@@ -1663,6 +1704,7 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
   height: 45px;
   border-radius: 0;
 }
+
 
 .btn {
   font-size: 16px;
@@ -1748,6 +1790,7 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
 .custom-row-02192 > [class*="col-"] {
   padding-right: 25px !important;
   padding-left: 25px !important;
+  
 }
 
 .gutter-1 {
