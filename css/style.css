@@ -857,6 +857,7 @@ a, a:hover {
 
 .sticky-wrapper .untree_co--site-nav .logo-wrap, .sticky-wrapper .untree_co--site-nav .icons-wrap {
   z-index: 1003;
+  
 }
 
 .btn-menu {
@@ -871,12 +872,14 @@ a, a:hover {
   margin: 0 auto;
   z-index: 1;
   position: relative;
+  
 }
 
 .sticky-wrapper .untree_co--site-nav .untree_co--site-logo {
   font-size: 1.3rem;
   color: #fff;
   font-weight: 700;
+  
 }
 
 .sticky-wrapper .untree_co--site-nav .site-nav-ul {
@@ -1062,6 +1065,8 @@ a, a:hover {
   color: #000;
   
 }
+
+/*
 .sticky-wrapper .untree_co--site-nav.dark .container .logo-wrap{
   background: url('/images/Logo/logo-Kantu-color.png') no-repeat;
   background-size: cover;
@@ -1070,7 +1075,7 @@ a, a:hover {
   flex-flow: row;
   width: 100px;
   height: 35px;
-}
+}*/
 
 .sticky-wrapper .untree_co--site-nav.dark .site-nav-ul li a {
   color: #000;
@@ -1114,6 +1119,9 @@ a, a:hover {
   color: #fff;
   opacity: 1;
 }
+
+/*Logo color*/
+.sticky-wrapper.is-sticky .
 
 .sticky-wrapper.is-sticky .icons-top li a:hover {
   background: #ff896b;
@@ -1665,14 +1673,18 @@ footer h3 {
 
 
 .col-md-3 .logo-footer{
-  width: 300px;
-  height: 80px;
+  width: 330px;
+  height: 137px;
   background-size: cover;
   right: 95%;
   position: relative;
   display: flex;
   flex-flow: row;
-  
+ float:left;
+}
+.col-md-8 .col-md-6{
+  position: relative;
+  left: 20%;
 }
 
 footer a {
@@ -2061,4 +2073,23 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
 }
