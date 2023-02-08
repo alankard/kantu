@@ -1121,7 +1121,9 @@ a, a:hover {
 }
 
 /*Logo color*/
-.sticky-wrapper.is-sticky .
+.sticky-wrapper.is-sticky .untree_co--site-nav .logo-wrap img{
+background-image: url('images/Logo/logo-kantu-color.png');
+}
 
 .sticky-wrapper.is-sticky .icons-top li a:hover {
   background: #ff896b;
