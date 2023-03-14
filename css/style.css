@@ -1823,7 +1823,7 @@ footer .form-subscribe .form-control:focus {
 
 .media-29191 {
   border: 1px solid #efefef;
-  padding: 40px;
+  padding-top: 40px;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
@@ -1839,7 +1839,6 @@ footer .form-subscribe .form-control:focus {
 }
 
 .media-29191 .media-29191-icon img {
-  width: 50px;
   margin-bottom: 30px;
 }
 
@@ -2129,6 +2128,12 @@ footer .form-subscribe .form-control:focus {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+
+.img-fluid{
+  width: 330.7px;
+  height: 400px;
 }
 
 
