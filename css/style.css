@@ -810,7 +810,11 @@ a:hover {
   height: 40px;
   opacity: 1;
 }
-
+.list li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style-position: inside;
+}
 
 
 /* Site Nav */
@@ -1152,6 +1156,14 @@ a:hover {
 
 .sticky-wrapper.is-sticky .untree_co--site-nav .site-nav-ul li a {
   color: #000;
+}
+.sticky-wrapper.is-sticky .untree_co--site-nav .site-nav-ul .men{
+  color: white;
+}
+
+.sticky-wrapper.is-sticky .untree_co--site-nav .logo-wrap{
+  background-image: url('/images/Logo/logo-Kantu-color.png');
+  padding-top: 40px;
 }
 
 
